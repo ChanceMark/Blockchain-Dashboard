@@ -37,8 +37,8 @@ A web-based dashboard for monitoring and visualizing blockchain transactions and
 
 ## Project Structure
 
-- `public/` - Static files.
-- `src/` - Source files.
+    - `public/` - Static files.
+    - `src/` - Source files.
     - `assets/` - Images and other asset files.
     - `components/` - Vue components.
     - `contracts/` - Smart contract ABI files.
@@ -48,12 +48,12 @@ A web-based dashboard for monitoring and visualizing blockchain transactions and
 
 ## Components
 
-- `WalletConnector.vue` - Connects to the user's Ethereum wallet.
-- `TokenBalance.vue` - Displays the user's token balance.
-- `TransactionHistory.vue` - Displays the user's transaction history.
-- `AccountInfo.vue` - Displays the user's account information.
-- `Dashboard.vue` - Combines all the components into a dashboard.
+    - `WalletConnector.vue` - Connects to the user's Ethereum wallet.
+    - `TokenBalance.vue` - Displays the user's token balance.
+    - `TransactionHistory.vue` - Displays the user's transaction history.
+    - `AccountInfo.vue` - Displays the user's account information.
+    - `Dashboard.vue` - Combines all the components into a dashboard.
 
 ## License
 
-This project is licensed under the MIT License.
+    This project is licensed under the MIT License.
